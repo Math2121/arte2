@@ -1,0 +1,44 @@
+@media (max-width: 425px) {
+    .header-main {
+        display: none !important;
+    }
+
+    .wooden-work {
+        img {
+            display: none;
+        }
+    }
+    .intro-wood .loja img {
+        height: 72%;
+    }
+    .clients .testimonial {
+        height: 100% !important;
+        flex-direction: column;
+    }
+    .services .item-service {
+        height: auto !important;
+    }
+
+    .clients .owl-nav {
+        display: none;
+    }
+}
+
+@media (max-width: 780px) {
+    .wooden-work .row .btn {
+        margin-right: 6px !important;
+    }
+    .intro-wood p {
+        margin-bottom: 2rem;
+        font-size: 15px !important;
+    }
+    .header-back {
+        height: 43.2rem !important;
+    }
+    .services {
+        .item-service {
+            height: 100%;
+            width: 13rem !important;
+        }
+    }
+}

@@ -1,0 +1,20 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+p {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+.clients owl-carousel .owl-nav.disabled {
+  display: block;
+}
+/*# sourceMappingURL=reset.css.map */
